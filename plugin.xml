@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="net.dentalpost.appgyver.steroids.version.hack"
+        version="1.0.0">
+
+  <name>AppGyver Steroids Target SDK Hack</name>
+
+  <platform name="android">
+    <preference name="android-targetSdkVersion" value="23" />
+  </platform>
+
+</plugin>
