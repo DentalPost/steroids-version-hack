@@ -6,8 +6,9 @@
   <name>AppGyver Steroids Target SDK Hack</name>
 
   <platform name="android">
-    <uses-sdk android:targetSdkVersion="23" />
-              
+        <config-file target="AndroidManifest.xml" parent="/manifest">
+                <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="23" />
+        </config-file>
   </platform>
 
 </plugin>
